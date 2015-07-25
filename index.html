@@ -28,21 +28,41 @@
 </head>
 
 <body>
+
+	<!-- NavBar -->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">
+	        <img alt="DrumSense" src="images/logo.png">
+	      </a>
+	    </div>
+	  </div>
+	</nav>
+
 	<!-- Welcoem Screen -->
 	<div class="container text-center" id="welcomescreen">
 		<!-- Question -->
 		<h1 class="welcomequestion"> Are you a... </h1>
 
 		<!-- When Pressed, goes to student.html -->
-		<a class="btn btn-default" href="student" role="button">Drum Student</a>
+		<a class="btn btn-lg btn-primary" id="student" href="student" role="button">Drum Student <img src="images/drummer.png" class="welcomeimage">
+		</a>
 
 		<!-- When Pressed, goes to teacher.html -->
-		<a class="btn btn-default" href="teacher" role="button">Drum Teacher</a>
+		<a class="btn btn-lg btn-primary" id ="teacher" href="teacher" role="button">Drum Teacher</a>
 
 		<!-- When Pressed, goes to parent.html -->
-		<a class="btn btn-default" href="parent" role="button">Parent</a>
+		<a class="btn btn-lg btn-primary" id="parent" href="parent" role="button">Parent</a>
 
 	</div>
+
+	<!-- footer -->
+	<footer class="footer">
+      <div class="container">
+        <p class="text-muted">© DrumSense 2015</p>
+      </div>
+    </footer>
 
 </body>
 
